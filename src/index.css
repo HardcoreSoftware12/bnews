@@ -1,5 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&display=swap');
 
 
+body{
+    font-family: 'Bodoni Moda', serif;
+    
+}
