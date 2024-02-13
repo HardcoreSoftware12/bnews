@@ -88,6 +88,21 @@ const [calender,setcal] = useState({
        
 
     </div>
+
+    {/* <div className='border flex'>
+        <h1 className='text-2xl font-extrabold mt-5 mb-8 sm:hidden'>
+                Economy Flies High, So do Corporates: Biz Flyers Top pre-Covid Numbers
+        </h1>
+        <div className=''>
+            <img className='mx-auto w-[240px] h-[180px]' src="https://img.etimg.com/thumb/msid-107607814,width-240,height-180,imgsize-103812/economy-flies-high-so-do-corporates-biz-flyers-top-pre-covid-numbers.jpg" alt="" />
+        </div>
+        <div className=''> 
+            <h1 className='text-2xl font-extrabold invisible sm:visible'>
+                Economy Flies High, So do Corporates: Biz Flyers Top pre-Covid Numbers
+            </h1>
+            <p>Corporate air travel has surpassed pre-pandemic levels, contrary to the perception that it has taken a back seat with virtual meetings becoming the order of the day after Covid-19.</p>
+        </div>
+    </div> */}
     </>
   )
 }

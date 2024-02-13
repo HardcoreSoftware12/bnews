@@ -4,8 +4,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Business', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Business', href: '/business', current: false },
   { name: 'Sports', href: '#', current: false },
   { name: 'Tech', href: '#', current: false },
   { name: 'Entertainment', href: '#', current: false },
@@ -19,7 +19,7 @@ function Navbar() {
   return (
 
     <Disclosure as="nav" className="bg-red-800">
-      
+
       {({ open }) => (
         <>
           <div className=" px-2 sm:px-6">

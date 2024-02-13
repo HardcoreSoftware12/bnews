@@ -2,6 +2,7 @@ import { createBrowserRouter,Outlet } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Navbar from "./Components/Navbar";
 import NewsDetails from "./Components/NewsDetails";
+import Business from "./Components/API/Business";
 
 
 
@@ -40,6 +41,11 @@ export const router = createBrowserRouter([
         path:"/details",
         element:<NewsDetails/>
       },
+      {
+        path:"/business",
+        element:<Business/>
+      },
+
 
     ]
   }
