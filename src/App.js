@@ -3,6 +3,9 @@ import Homepage from "./Pages/Homepage";
 import Navbar from "./Components/Navbar";
 import NewsDetails from "./Components/NewsDetails";
 import Business from "./Components/API/Business";
+import Sports from "./Components/API/Sports";
+import Tech from "./Components/API/Tech";
+import Entertainment from "./Components/API/Entertainment";
 
 
 
@@ -45,6 +48,19 @@ export const router = createBrowserRouter([
         path:"/business",
         element:<Business/>
       },
+      {
+        path:"/sports",
+        element:<Sports/>
+      },
+      {
+        path:"/tech",
+        element:<Tech/>
+      },
+      {
+        path:"/entertainment",
+        element:<Entertainment/>
+      },
+
 
 
     ]

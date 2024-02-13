@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import fetchByCategory from './newsfetcher';
+
 import Template from './Template';
 
 
 
-function Business() {
+function Tech() {
 
   const [news, setNews] = useState([]);
 
@@ -16,7 +17,7 @@ function Business() {
 
 
 
-      const News = await fetchByCategory("business");
+      const News = await fetchByCategory("technology");
       console.log(News);
       setNews(News)
 
@@ -34,4 +35,4 @@ function Business() {
   )
 }
 
-export default Business
+export default Tech;

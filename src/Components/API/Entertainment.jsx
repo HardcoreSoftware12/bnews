@@ -4,7 +4,7 @@ import Template from './Template';
 
 
 
-function Business() {
+function Entertainment() {
 
   const [news, setNews] = useState([]);
 
@@ -16,7 +16,7 @@ function Business() {
 
 
 
-      const News = await fetchByCategory("business");
+      const News = await fetchByCategory("entertainment");
       console.log(News);
       setNews(News)
 
@@ -25,7 +25,6 @@ function Business() {
     fetchBusinessNews();
   }, [])
   return (
-
     <Template news={news}/>
 
 
@@ -34,4 +33,4 @@ function Business() {
   )
 }
 
-export default Business
+export default Entertainment

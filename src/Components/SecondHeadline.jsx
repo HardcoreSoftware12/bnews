@@ -12,7 +12,7 @@ function FrontPage() {
     <div className=' p-5 grid grid-rows-1 gap-10 lg:grid-cols-5'>
         <div className='w-full  lg:col-span-2 mt-3'>
        
-        <left className=''>
+        <div className=''>
             <div className=''>
             <img className='md:mx-auto' src="https://img.etimg.com/thumb/msid-107608007,width-600,height-450,imgsize-73142/borders-fortified-ahead-of-proposed-delhi-chalo-march-by-farmers-talks-with-centre.jpg" alt="" />
             <h1 className='mt-3 text-3xl font-bold'>
@@ -26,7 +26,7 @@ function FrontPage() {
             </p > 
             </div>
            
-        </left>
+        </div>
 
         </div>
 

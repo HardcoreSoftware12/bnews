@@ -1,22 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import fetchByCategory from './newsfetcher';
+
 import Template from './Template';
 
 
-
-function Business() {
+function Sports() {
 
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-
-
-
     const fetchBusinessNews = async () => {
 
-
-
-      const News = await fetchByCategory("business");
+      const News = await fetchByCategory("sports");
       console.log(News);
       setNews(News)
 
@@ -25,7 +20,6 @@ function Business() {
     fetchBusinessNews();
   }, [])
   return (
-
     <Template news={news}/>
 
 
@@ -34,4 +28,4 @@ function Business() {
   )
 }
 
-export default Business
+export default Sports
