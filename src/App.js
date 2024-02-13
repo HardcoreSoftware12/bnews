@@ -6,6 +6,7 @@ import Business from "./Components/API/Business";
 import Sports from "./Components/API/Sports";
 import Tech from "./Components/API/Tech";
 import Entertainment from "./Components/API/Entertainment";
+import Science from "./Components/API/Science";
 
 
 
@@ -59,6 +60,10 @@ export const router = createBrowserRouter([
       {
         path:"/entertainment",
         element:<Entertainment/>
+      },
+      {
+        path:"/science",
+        element:<Science/>
       },
 
 

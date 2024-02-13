@@ -14,23 +14,14 @@ function Tech() {
 
 
     const fetchBusinessNews = async () => {
-
-
-
       const News = await fetchByCategory("technology");
-      console.log(News);
       setNews(News)
-
-
     }
     fetchBusinessNews();
   }, [])
+  
   return (
-
-    <Template news={news}/>
-
-
-
+    <Template news={news} />
 
   )
 }

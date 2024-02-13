@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 function FrontPage() {
     const params = useLocation()
-    console.log("params", params);
 
 
     const [calender, setcal] = useState({

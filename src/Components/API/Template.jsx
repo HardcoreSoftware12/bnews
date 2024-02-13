@@ -14,7 +14,7 @@ function Template({news}) {
 
             </div>
 
-            <div className='md:col-span-2 leading-5 border lg:my-auto leading-10  '>
+            <div className='md:col-span-2 leading-5  lg:my-auto leading-10  '>
               <div className='mt-5 '>
                 <a href={news.url}
                 >

@@ -4,13 +4,13 @@ import Template from './Template';
 
 
 
-function Business() {
+function Science() {
 
   const [news, setNews] = useState([]);
 
   useEffect(() => {
     const fetchBusinessNews = async () => {
-      const News = await fetchByCategory("business");
+      const News = await fetchByCategory("science");
       setNews(News)
     }
     fetchBusinessNews();
@@ -21,4 +21,4 @@ function Business() {
   )
 }
 
-export default Business
+export default Science

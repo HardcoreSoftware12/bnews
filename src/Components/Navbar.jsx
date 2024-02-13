@@ -8,6 +8,7 @@ let navigation = [
   { name: 'Sports', href: '/sports', current: false },
   { name: 'Tech', href: '/tech', current: false },
   { name: 'Entertainment', href: '/entertainment', current: false },
+  { name: 'Science', href: '/science', current: false },
 ]
 
 
@@ -18,7 +19,6 @@ function classNames(...classes) {
 
 function Navbar() {
   const location = useLocation()
-  console.log("params",location);
 
   navigation = navigation.map(item => {
     return {
