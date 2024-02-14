@@ -28,7 +28,7 @@ function Tech() {
   
   const lastIndex = currentPage * newsPerPage;
   const firstIndex = lastIndex - newsPerPage;
-  const curretnNews = news.slice(firstIndex,lastIndex);
+  const curretnNews = news && news.length > 0 ? news.slice((currentPage - 1) * newsPerPage, currentPage * newsPerPage) : [];
   
   return ( <>
     <Template news={curretnNews}/>
