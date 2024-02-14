@@ -6,12 +6,12 @@
 
 ## How to run
 
-### `download the code `
+### `1. download the zip or clone the repository `
 
-### `npm install`
+### `2. npm install`
 
-to download the dependecies\
-### `npm start`
+To download the dependecies\
+### `3. npm start`
 
 It will start the development server on localhost:3000
 
