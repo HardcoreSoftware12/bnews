@@ -1,8 +1,8 @@
 ## Tech Stack Used 
-  > React
-  > News Api - https://newsapi.org/
-  > Tailwind CSS
-  > Axios 
+  > React \
+  > News Api - https://newsapi.org/ \
+  > Tailwind CSS \
+  > Axios \
 
 
 
