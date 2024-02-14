@@ -8,6 +8,8 @@
 
 ### `1. download the zip or clone the repository `
 
+O
+
 ### `2. npm install`
 
 To download the dependecies\
