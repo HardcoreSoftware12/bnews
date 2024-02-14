@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Page Sections
+  > Home Page - Contains dummy data and mimics the traditional page layouts
+  > Other sections - like business, sports, tech, entertainment and science
+                    fetches data from api and displays them with pagination. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
