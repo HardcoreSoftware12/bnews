@@ -1,3 +1,6 @@
+## Project video link - https://drive.google.com/file/d/16Bzp5tB_RPlLXUQw3WeiUzuFLELB6XLI/view?usp=sharing
+
+
 ## Tech Stack Used 
   > React \
   > News Api - https://newsapi.org/ \
