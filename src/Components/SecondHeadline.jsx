@@ -16,7 +16,7 @@ function FrontPage() {
             <div className=''>
             <img className='md:mx-auto' src="https://img.etimg.com/thumb/msid-107608007,width-600,height-450,imgsize-73142/borders-fortified-ahead-of-proposed-delhi-chalo-march-by-farmers-talks-with-centre.jpg" alt="" />
             <h1 className='mt-3 text-3xl font-bold'>
-                <Link to="/details">
+                <Link to="">
                 Borders Fortified Ahead of Proposed ‘Delhi Chalo’ March by Farmers, Talks with Centre
                 </Link>
             </h1>
