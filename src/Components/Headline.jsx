@@ -48,7 +48,7 @@ const [calender,setcal] = useState({
             <div className=''>
             <img className='md:mx-auto' src="https://img.etimg.com/thumb/msid-107607974,width-600,height-450,imgsize-676653/disney-reliance-talks-on-merger-reach-last-lap.jpg" alt="" />
             <h1 className='mt-3 text-3xl font-bold'>
-                <Link to="/details">
+                <Link to="">
                     Disney, Reliance Talks on Merger Reach Last Lap
                 </Link>
             </h1>
