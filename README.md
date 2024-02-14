@@ -1,3 +1,11 @@
+## Tech Stack Used 
+  > React
+  > News Api - https://newsapi.org/
+  > Tailwind CSS
+  > Axios 
+
+
+
 # Page Sections
   > Home Page - Contains dummy data and mimics the traditional page layouts \
   > Other sections - like business, sports, tech, entertainment and science  \
