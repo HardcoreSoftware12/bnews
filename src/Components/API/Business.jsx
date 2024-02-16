@@ -23,12 +23,12 @@ function Business() {
 
   const lastIndex = currentPage * newsPerPage;
   const firstIndex = lastIndex - newsPerPage;
-  const curretnNews =[];
+  let curretnNews =[];
   if(news){
     
    curretnNews = news && news.length > 0 ? news.slice((currentPage - 1) * newsPerPage, currentPage * newsPerPage) : [];
   }
-  
+
   return (
     <>
     <Template news={curretnNews}/>
