@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link,useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { useEffect, useState } from "react";
 
 function FrontPage() {
-    const params = useLocation()
 
     
 const [calender,setcal] = useState({

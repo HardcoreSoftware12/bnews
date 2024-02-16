@@ -1,6 +1,6 @@
 import { Disclosure,  } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 let navigation = [
   { name: 'Home', href: '/', current: true },
@@ -18,7 +18,7 @@ function classNames(...classes) {
   }
 
 function Navbar() {
-  const location = useLocation()
+  const location = useLocation();
 
   navigation = navigation.map(item => {
     return {
