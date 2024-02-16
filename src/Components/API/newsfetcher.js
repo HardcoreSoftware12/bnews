@@ -21,7 +21,6 @@ let year = today.getFullYear();
 // let from,to = yea;
 let from = year+"-"+month+"-"+day
 let to = year+"-"+month+"-"+day
-console.log(from,to)
 
 return {from,to}
 
