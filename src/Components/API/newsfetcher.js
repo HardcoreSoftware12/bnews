@@ -1,8 +1,10 @@
 import axios from "axios"
 
 const api_url = process.env.REACT_APP_API_URL
+console.log(process.env.REACT_APP_API_URL);
 
 const api_key = process.env.REACT_APP_API_KEY;
+console.log(process.env.REACT_APP_API_KEY);
 
 
 
@@ -46,7 +48,7 @@ const fetchByCategory = async (category)=>{
     try {
         const res = await axios.get(`${baseUrl}&category=${category}`)
         console.log(`${baseUrl}&from=${from}&to=${to}&category=${category}`);
-        // console.log(res.data.articles);
+        console.log(res.data.articles);
         return res.data.articles;
         
     } catch (error) {
