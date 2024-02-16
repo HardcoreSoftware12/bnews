@@ -16,6 +16,7 @@ function Sports() {
   useEffect(() => {
     const fetchBusinessNews = async () => {
       const News = await fetchByCategory("sports");
+      console.log(News);
       setNews(News)
     }
     fetchBusinessNews();
