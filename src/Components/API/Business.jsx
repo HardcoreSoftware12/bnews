@@ -27,7 +27,8 @@ function Business() {
   if(news){
     
    curretnNews = news && news.length > 0 ? news.slice((currentPage - 1) * newsPerPage, currentPage * newsPerPage) : [];
-  }
+  }                                                     
+                                                    
 
   return (
     <>
