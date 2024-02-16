@@ -33,7 +33,7 @@ function Business() {
     <>
     <Template news={curretnNews}/>
     <Pagination 
-        // totalPosts={news.length}
+        totalPosts={news.length}
         postPerPage={newsPerPage}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
