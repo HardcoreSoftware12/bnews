@@ -21,6 +21,7 @@ let year = today.getFullYear();
 // let from,to = yea;
 let from = year+"-"+month+"-"+day
 let to = year+"-"+month+"-"+day
+console.log(from,to)
 
 return {from,to}
 
@@ -33,7 +34,7 @@ return {from,to}
 const fetchByCategory = async (category)=>{
     let {from,to} = await fetchDate();
     try {
-        const res = await axios.get(`${baseUrl}&category=${category}`)
+        const res = await axios.get(`${baseUrl}&from=${from}&to=${to}&category=${category}&q=india`)
         return res.data.articles;
         
     } catch (error) {
