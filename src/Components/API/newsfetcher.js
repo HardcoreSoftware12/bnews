@@ -44,8 +44,8 @@ return {from,to}
 const fetchByCategory = async (category)=>{
     let {from,to} = await fetchDate();
     try {
-        const res = await axios.get(`${baseUrl}&from=${from}&to=${to}&category=${category}`)
-        // console.log(`${baseUrl}&from=${from}&to=${to}&category=${category}`);
+        const res = await axios.get(`${baseUrl}&category=${category}`)
+        console.log(`${baseUrl}&from=${from}&to=${to}&category=${category}`);
         // console.log(res.data.articles);
         return res.data.articles;
         
